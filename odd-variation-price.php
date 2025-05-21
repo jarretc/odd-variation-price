@@ -1,12 +1,13 @@
 <?php
 /**
- * Plugin Name: Variation Header Price
- * Plugin URI: https://orangedotdevelopment.com
+ * Plugin Name: Variation Header Price for WooCommerce
+ * Plugin URI: https://orangedotdevelopment.com/software/wordpress/plugins/variation-header-price-for-woocommerce/
  * Description: Displays the variation price without having to expand the metabox.
  * Version: 1.0.0
- * Author: OrangeDotDevelopment
+ * Author: Jarret
  * Author URI: https://orangedotdevelopment.com
  * Text Domain: odd-variation-price
+ * Requires Plugins: woocommerce
 */
 
 add_action( 'woocommerce_variation_header', function( \WP_Post $variation ) {
